@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>
+    "login form"
+    </title>
+<style>
+    body{
+            font-family:Arial,sans-serif;
+            margin:50px;
+        }
+        .error{
+            color:red;
+            
+        }
+        .success{
+            color:green;
+        }
+</style>
+
+</head>
+<body>
+    <h2>"loginForm"</h2>
+    <form id="loginForm">
+        <label>Email</label><br>
+        <input type="text"id="email"><br>
+
+        <label>password</label><br>
+        <input type="password" id="password"><br><br>
+        <button type="submit">login</button>
+    </form>
+    <p id="message"></p>
+    <p Wrong Attempt: <span id="attemptCount"></span>
+</body>
+
+</html>
